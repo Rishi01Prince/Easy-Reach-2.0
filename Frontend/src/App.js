@@ -24,6 +24,7 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route exact path="/" element={<EasyReach/>} />
+                <Route exact path="/home" element={<EasyReach/>} />
                 <Route exact path="/aboutus" element={<Aboutus />} />
                 <Route exact path="/contactus" element={<Contactus />} />
                 <Route exact path="/login" element={<Login />} />
