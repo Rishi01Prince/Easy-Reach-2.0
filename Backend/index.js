@@ -6,8 +6,8 @@ const port = process.env.port || 8000;
 
 
 app.use((req, res, next) => {
-  // res.setHeader("Access-Control-Allow-Origin", "https://frontend-my-contacts.vercel.app");//isi port pr react render ho rahi hai
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  // res.setHeader("Access-Control-Allow-Origin", "https://localhost:3000");//isi port pr react render ho rahi hai
+  res.setHeader("Access-Control-Allow-Origin", "https://easy-reach-2-0-three.vercel.app");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
