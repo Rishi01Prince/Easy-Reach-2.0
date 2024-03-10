@@ -26,7 +26,8 @@ export default function Card(props) {
     const handleSave = async () => {
         try {
             const response = await fetch(
-                "http://localhost:8000/api/updateData",
+                // "http://localhost:8000/api/updateData",
+                "https://easy-reach-2-0-three.vercel.app/api/updateData",
                 {
                     method: "POST",
                     headers: {
@@ -72,7 +73,8 @@ export default function Card(props) {
         if (confirmDelete) {
             try {
                 const response = await fetch(
-                    "http://localhost:8000/api/deleteData",
+                    // "http://localhost:8000/api/deleteData",
+                    "https://easy-reach-2-0-three.vercel.app/api/deleteData",
                     {
                         method: "POST",
                         headers: {

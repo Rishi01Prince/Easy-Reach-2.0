@@ -27,8 +27,8 @@ export default function EasyReach() {
         try {
             const userEmail = localStorage.getItem("userEmail");
             const response = await fetch(
-                // "https://mycontactbackend.onrender.com/api/mycurrentData",
-                "http://localhost:8000/api/mycurrentData",
+                // "http://localhost:8000/api/mycurrentData",
+                "https://easy-reach-2-0-three.vercel.app/api/mycurrentData",
                 {
                     method: "POST",
                     headers: {
@@ -60,7 +60,8 @@ export default function EasyReach() {
         try {
             const response = await fetch(
                 // "https://mycontactbackend.onrender.com/api/addContact",
-                "http://localhost:8000/api/addContact",
+                // "http://localhost:8000/api/addContact",
+                "https://easy-reach-2-0-three.vercel.app/api/addContact",
                 {
                     method: "POST",
                     headers: {
