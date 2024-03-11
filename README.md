@@ -1,1 +1,1 @@
-# Instant_Hunt-2.0
+# Easy Reach-2.0
