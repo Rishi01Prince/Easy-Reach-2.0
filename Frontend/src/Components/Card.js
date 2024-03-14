@@ -27,7 +27,7 @@ export default function Card(props) {
         try {
             const response = await fetch(
                 // "http://localhost:8000/api/updateData",
-                "https://easy-reach-2-0-three.vercel.app/api/updateData",
+                "https://easy-reach-2-0.onrender.com/api/updateData",
                 {
                     method: "POST",
                     headers: {

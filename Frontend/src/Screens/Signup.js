@@ -48,7 +48,7 @@ export default function Signup() {
         const response = await fetch(
             // "https://mycontactbackend.onrender.com/api/createuser",
             // "http://localhost:8000/api/createuser",
-            "https://easy-reach-2-0-three.vercel.app/api/createuser",
+            "https://easy-reach-2-0.onrender.com/api/createuser",
             {
                 method: "POST",
                 headers: {
